@@ -25,22 +25,6 @@ void print_list(const Linkedlist *list)
 {
     Node *temp;
     temp = list->head_node;
-    // while (temp->next != NULL)
-    // {
-    //     switch (temp->value)
-    //     {
-    //     case '\a':
-    //         printf("[");
-    //         break;
-    //     case '\b':
-    //         printf("]\n");
-    //         break;
-    //     default:
-    //         printf("%c ", temp->value);
-    //         break;
-    //     }
-    //     temp = temp->next;
-    // }
     printf(START_OF_LIST);
     if (list->size != 0)
     {
